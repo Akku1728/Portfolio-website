@@ -67,10 +67,10 @@ a{
 }
   
 a:hover{
-  color: gray;
+  color: rgb(125, 125, 125);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: gray;
+  text-decoration-color: rgb(125, 125, 125);
 }
   
 .logo:hover {
