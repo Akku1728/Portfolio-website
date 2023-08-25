@@ -99,4 +99,7 @@
   .title{
     padding-top: 4rem;
   }
+  section{
+    margin: 25px 0 25px 0;
+  }
 }
