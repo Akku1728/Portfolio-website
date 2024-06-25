@@ -18,24 +18,23 @@
           <li><a href="#projects">PROJECTS</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
+        <!-- <nav id="hamb-nav">
+          <div class="hamb-menu">
+            <div class="hamb-icon" onclick="ToggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+              <li><a href="#about" onclick="ToggleMenu()">ABOUT</a></li>
+              <li><a href="#experience" onclick="ToggleMenu()">EXPERIENCE</a></li>
+              <li><a href="#projects" onclick="ToggleMenu()">PROJECTS</a></li>
+              <li><a href="#contact" onclick="ToggleMenu()">CONTACT</a></li>
+            </div>
+          </div>
+        </nav> -->
       </div>
-    </nav>
-    <nav id="hamb-nav">
-      <div class="logo">Akash Das</div>
-      <div class="hamb-menu">
-        <div class="hamb-icon" onclick="ToggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="ToggleMenu()">ABOUT</a></li>
-          <li><a href="#experience" onclick="ToggleMenu()">EXPERIENCE</a></li>
-          <li><a href="#projects" onclick="ToggleMenu()">PROJECTS</a></li>
-          <li><a href="#contact" onclick="ToggleMenu()">CONTACT</a></li>
-        </div>
-      </div>
-    </nav>
+    </nav> 
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/PP_AD.jpg" alt="Akash's profile pic">
@@ -43,7 +42,7 @@
       <div class="section__text">
         <p class="section__text_p1">Hello, I am</p>
         <h1 class="title">AKASH DAS</h1>
-        <p class="section__text_p2">A 3rd year Undergrad Student from IIEST Shibpur</p>
+        <p class="section__text_p2">A 4th year Undergrad Student from IIEST Shibpur</p>
         <div class="btn-container">
           <button class="btn btn-clr-1" onclick="window.open('./assets/Akash-Resume-Sample.pdf')">
              Download CV
@@ -54,16 +53,22 @@
         </div>
         <div id="social-container">
           <img
-           src="./assets/linkedin.png" alt="My Linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/akash-das-969822184/'"
+           src="./assets/linkedin.png" alt="My Linkedin" class="icon" onclick="window.open('https://www.linkedin.com/in/akash-das-969822184/' , '_blank')"
           >
          <img
-            src="./assets/github.png" alt="My Github" class="icon" onclick="location.href='https://github.com/Akku1728'"
+            src="./assets/github.png" alt="My Github" class="icon" onclick="window.open('https://github.com/Akku1728' , '_blank')"
           >
           <img
-            src="./assets/insta.png" alt="My Insta" class="icon" onclick="location.href='https://www.instagram.com/akash_d8/'" 
+            src="./assets/insta.png" alt="My Insta" class="icon" onclick="window.open('https://www.instagram.com/akash_d8/' , '_blank')" 
           >
         </div>
       </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#about'"
+      /> -->
     </section>
     <section id="about">
       <p class="section__text_p1">Get to Know More</p>
@@ -86,22 +91,22 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>10th and 12th from ISCE, Delhi <br> B.Tech from IIEST Shibpur(ongoing)</p>
+              <p>10th and 12th from ISCE <br> B.Tech from IIEST Shibpur</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              I am a diligent college student with a versatile skill set. Proficient in HTML, CSS, and C++, I build foundational web projects. My exposure to basic JavaScript and Python enhances my problem-solving abilities. With a strong grasp of 2D AutoCAD, I create meticulous technical drawings. Utilizing Microsoft Office and Canva, I manage tasks and design visually engaging content. My adaptability shines through my willingness to learn and improve continuously. This range of skills positions me to contribute effectively across technology and design realms, as I strive to broaden my capabilities and undertake challenging projects. My commitment to growth and practical application drives me to deliver valuable contributions in diverse settings, reflecting my dedication to both technical and creative excellence.
+              I am a diligent college student with a versatile skill set. Proficient in HTML, CSS, and C++, I build foundational web projects. My exposure to basic JavaScript and Python enhances my problem-solving abilities. With a strong grasp of 2D AutoCAD, I create meticulous technical drawings. Additionally, I am comfortable with SQL and PowerBI, allowing me to manage and analyze data efficiently. Utilizing Microsoft Office and Canva, I manage tasks and design visually engaging content. My adaptability shines through my willingness to learn and improve continuously. This range of skills positions me to contribute effectively across technology and design realms, as I strive to broaden my capabilities and undertake challenging projects. My commitment to growth and practical application drives me to deliver valuable contributions in diverse settings, reflecting my dedication to both technical and creative excellence.
             </p>
           </div>
         </div>
       </div>
-      <img
+      <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#experience'"
-      />
+      /> -->
     </section>
     <section id="experience">
       <p class="section__text_p1">Explore My</p>
@@ -117,7 +122,7 @@
               >
               <div>
                 <h3>HTML, CSS, JS</h3>
-                <p>Experienced</p>
+                <!-- <p>Experienced</p> -->
               </div>
               </article>
               <article>
@@ -125,8 +130,8 @@
                 class="icon"
               >
               <div>
-                <h3>C++</h3>
-                <p>Experienced</p>
+                <h3>C++, Python</h3>
+                <!-- <p>Experienced</p> -->
               </div>
               </article>
               <article>
@@ -134,8 +139,8 @@
                 class="icon"
               >
               <div>
-                <h3>Python, JS</h3>
-                <p>Basic</p>
+                <h3>SQL, PowerBI</h3>
+                <!-- <p>Basic</p> -->
               </div>
               </article>
               <article>
@@ -144,7 +149,7 @@
               >
               <div>
                 <h3>AutoCAD 2D</h3>
-                <p>Experienced</p>
+                <!-- <p>Experienced</p> -->
               </div>
               </article>
               <article>
@@ -152,8 +157,8 @@
                 class="icon"
               >
               <div>
-                <h3>Microsoft Office Apps, MySQL</h3>
-                <p>Experienced</p>
+                <h3>Microsoft Office Applications</h3>
+                <!-- <p>Experienced</p> -->
               </div>
               </article>
               <article>
@@ -162,7 +167,7 @@
               >
               <div>
                 <h3>Canva</h3>
-                <p>Experienced</p>
+                <!-- <p>Experienced</p> -->
               </div>
               </article>
             </div>
@@ -170,14 +175,14 @@
           <div class="details-container">
             <h2 class="experience-sub-title">Soft Skills</h2>
             <div class="article-container">
-              <!-- <article>
+              <article>
                 <img src="./assets/checkmark.png" alt="Exp Icon"
                 class="icon"
               >
               <div>
                 <h3>Public Speaking</h3>
               </div>
-              </article> -->
+              </article>
               <article>
                 <img src="./assets/checkmark.png" alt="Exp Icon"
                 class="icon"
@@ -222,12 +227,12 @@
           </div>
         </div>
       </div>
-      <img
+      <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
-      />
+      /> -->
     </section>
     <section id="projects">
       <p class="section__text_p1">Browse My Recent</p>
@@ -245,16 +250,16 @@
             <div class="btn-container">
               <button
               class="btn btn-clr-2 project-btn"
-              onclick="location.href='https://drive.google.com/drive/folders/1hm-BXVUmZ_axBVZT3o0ffotJAWgOFpll?usp=sharing'"
+              onclick="window.open('https://github.com/Akku1728/G-4-Building-Plan' , '_blank')"
               >
-              G-Drive 
+              Github
               </button>
-              <!-- <button
+              <button
               class="btn btn-clr-2 project-btn"
               onclick="location.href='github.com'"
               >
               Live Demo
-              </button> -->
+              </button>
             </div>
           </div>
           <div class="details-container color-container">
@@ -268,50 +273,50 @@
             <div class="btn-container">
               <button
               class="btn btn-clr-2 project-btn"
-              onclick="location.href='https://github.com/Akku1728/Supermarket_billing_cpp'"
+              onclick="window.open('https://github.com/Akku1728/Supermarket_billing_cpp' , '_blank')"
               >
               Github
               </button>
-              <!-- <button
+              <button
               class="btn btn-clr-2 project-btn"
               onclick="location.href='github.com'"
               >
               Live Demo
-              </button> -->
+              </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="./assets/project-3.png"
+              <img src="./assets/project-4.JPEG"
                alt="Project 1" 
                class="project-img"
               >
             </div>
-            <h2 class="experience-sub-title">Portfolio Website using HTML, CSS, JS</h2>
+            <h2 class="experience-sub-title">Data Analysis Project using SQL & PowerBI</h2>
             <div class="btn-container">
               <button
               class="btn btn-clr-2 project-btn"
-              onclick="location.href='https://github.com/Akku1728/Portfolio-website'"
+              onclick="window.open('https://github.com/Akku1728/Top_YT-channels_Data_Analysis_Proj' , '_blank')"
               >
               Github
               </button>
-              <!-- <button
+              <button
               class="btn btn-clr-2 project-btn"
               onclick="location.href='github.com'"
               >
               Live Demo
-              </button> -->
+              </button>
             </div>
           </div>
         </div>
         <!-- <p class="section__text_p1">Links won't be working for Privacy Reasons</p> -->
       </div>
-      <img
+      <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#contact'"
-      />
+      /> -->
     </section>
     <section id="contact">
       <p class="section__text_p1">Get in Touch</p>

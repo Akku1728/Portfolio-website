@@ -13,9 +13,9 @@
   #desk-nav {
     display: none;
   }
-  #hamb-nav {
+  /* #hamb-nav {
     display: flex;
-  }
+  } */
   .logo{
     font-family: 'Borel', cursive;
     font-size: 3rem;
@@ -27,9 +27,9 @@
   #profile, .section-container{
     display: block;
   }
-  .arrow{
+  /* .arrow{
     display: none;
-  }
+  } */
   section, .section-container{
     height: fit-content;
   }
@@ -98,8 +98,5 @@
   }
   .title{
     padding-top: 4rem;
-  }
-  section{
-    margin: 25px 0 25px 0;
   }
 }

@@ -77,18 +77,6 @@ a:hover{
     cursor: default;
 }
 
-/* .experience-details-container:hover{
-  color: black;
-  background-color: rgb(226, 226, 226);
-  border-radius: 2rem;
-}
-
-.details-container :hover{
-  color: black;
-  background-color: rgb(226, 226, 226);
-  border-radius: 2rem;
-} */
-
   /* HAMBURGER MENU */
 
 #hamb-nav {
@@ -184,10 +172,6 @@ section{
 
 .section-container{
   display: flex;
-}
-
-section{
-  margin: 50px 0 50px 0;
 }
 
 /* PROFILE SECTION  */
@@ -320,7 +304,7 @@ section{
 }
 
 .details-container {
-  padding: 3rem;
+  padding: 1.5rem;
   flex: 1;
   background: rgb(0, 0, 0);
   border-radius: 2rem;
@@ -366,7 +350,7 @@ section{
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 3rem;
+  gap: 6rem;
   justify-content: space-around;
 }
 
@@ -452,4 +436,3 @@ footer{
 footer p{
   text-align: center;
 }
-
